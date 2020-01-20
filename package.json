@@ -2,8 +2,9 @@
   "name": "mern-twitter",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
+    "server:debug": "nodemon --inspect app.js",
     "start": "node app.js",
     "server": "nodemon app.js"
   },
